@@ -1,0 +1,9 @@
+[0mGET / [36m304 [0m5.384 ms - -[0m
+::1 - - [14/Jul/2018:00:12:30 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+::1 - - [14/Jul/2018:00:13:06 +0000] "GET /1.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+::1 - - [14/Jul/2018:00:13:06 +0000] "GET /posterimage.jpg HTTP/1.1" 404 154 "http://localhost:8124/1.html" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+::1 - - [14/Jul/2018:00:13:06 +0000] "GET /1.mp4 HTTP/1.1" 304 - "http://localhost:8124/1.html" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+::1 - - [14/Jul/2018:00:13:06 +0000] "GET /1.mp4 HTTP/1.1" 206 196608 "http://localhost:8124/1.html" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+::1 - - [14/Jul/2018:00:13:06 +0000] "GET /1.mp4 HTTP/1.1" 304 - "http://localhost:8124/1.html" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+::1 - - [14/Jul/2018:00:13:06 +0000] "GET /1.mp4 HTTP/1.1" 304 - "http://localhost:8124/1.html" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+::1 - - [14/Jul/2018:00:13:07 +0000] "GET /1.mp4 HTTP/1.1" 206 8326928 "http://localhost:8124/1.html" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
