@@ -13,7 +13,7 @@ const __main = () => {
         'encoding': 'utf8',
         'mode': 0o666,
     })
-
+    // 不能用 function 包住 app 我也不知道为什么...
     http.createServer(app.
         use(logger('combined', {format: 'dev', stream: writeStream})).
         use(serveStatic(base, {redirect: true,}))

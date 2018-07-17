@@ -3,8 +3,13 @@ const __main = () => {
     var crossroads = require('crossroads'),
         http = require('http'),
         httpProxy = require('http-proxy')
-
-    httpProxy.createServer(8124, 'localhost:').listen(8000)
+    // 书上又错了, 不能那样写
+    httpProxy.createServer({
+        target: {
+            host: 'localhost',
+            port: 8124,
+        },
+    }).listen(8000)
 
     http.createServer(function(req, res){
         res.writeHead(200, {'Content-Type': 'text/plain',})
