@@ -8,7 +8,9 @@ const __main = () => {
 
     var indexRouter = require('./routes/index');
     var usersRouter = require('./routes/users');
+    var catalogRouter = require('./routes/catalog');  //Import routes for "catalog" area of site
     var wiki = require('./wiki')
+
     var app = express();
 
     // view engine setup
@@ -23,7 +25,8 @@ const __main = () => {
 
     app.use('/', indexRouter);
     app.use('/users', usersRouter);
-    app.use('/wiki', wiki)
+    app.use('/catalog', catalogRouter)
+    // app.use('/wiki', wiki);
 
     // catch 404 and forward to error handler
     app.use(function(req, res, next) {
